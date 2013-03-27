@@ -1,6 +1,9 @@
 <?php
-    if (isset($_GET['p']) && !empty($_GET['p']) && is_file($_GET['p'].'.php') && $_GET['p'] != "home" && $_GET['p'] != "resume") {
-        $page = "home";
+    if (isset($_GET['p']) && !empty($_GET['p']) && is_file($_GET['p'].'.php')) {
+	    $page = $_GET['p'];
+    }
+	else {
+	    $page = "home";
     }
 ?>
 
@@ -22,38 +25,38 @@
                                     if ($page == "projects") {
                             ?>
                                 <li><a href="./?p=home">Home</a></li>
-                                <li class="active">
-                                    <a rel="tooltip" href="#" data-original-title="Coming soon">Projects</a>
+                                <li class="active"><a href="./?p=projects">Projects</a></li>
+                                <li>
+                                    <a rel="tooltip" href="./?p=resume" data-original-title="Available in PDF only at the time">Resume</a>
                                 </li>
-                                <li><a href="./?p=resume">Resume <img src="./static/img/Pdf-icon.png" alt="PDF" /></a></li>
                             <?php
                                     }
                                     else if ($page == "resume") {
                             ?>
                                 <li><a href="./?p=home">Home</a></li>
-                                <li>
-                                    <a rel="tooltip" href="#" data-original-title="Coming soon">Projects</a>
+                                <li><a href="./?p=projects">Projects</a></li>
+                                <li class="active">
+                                    <a rel="tooltip" href="./?p=resume" data-original-title="Available in PDF only at the time">Resume</a>
                                 </li>
-                                <li><a href="./?p=resume">Resume <img src="./static/img/Pdf-icon.png" alt="PDF" /></a></li>
                             <?php
                                     }
                                     else {
                             ?>
                                 <li class="active"><a href="./?p=home">Home</a></li>
+                                <li><a href="./?p=projects">Projects</a></li>
                                 <li>
-                                    <a rel="tooltip" href="#" data-original-title="Coming soon">Projects</a>
+                                    <a rel="tooltip" href="./?p=resume" data-original-title="Available in PDF only at the time">Resume</a>
                                 </li>
-                                <li><a href="./?p=resume">Resume <img src="./static/img/Pdf-icon.png" alt="PDF" /></a></li>
                             <?php
                                     }
                                 }
                                 else {
                             ?>
                                 <li class="active"><a href="./?p=home">Home</a></li>
+                                <li><a href="./?p=projects">Projects</a></li>
                                 <li>
-                                    <a rel="tooltip" href="#" data-original-title="Coming soon">Projects</a>
+                                    <a rel="tooltip" href="./?p=resume" data-original-title="Available in PDF only at the time">Resume</a>
                                 </li>
-                                <li><a href="./?p=resume">Resume <img src="./static/img/Pdf-icon.png" alt="PDF" /></a></li>
                             <?php
                                 }
                             ?>

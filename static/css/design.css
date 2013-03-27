@@ -28,6 +28,10 @@ body:after {
 
 /* General rules */
 
+body {
+    font-size: 15px;
+}
+
 section h2 {
     border-bottom: 1px solid #3CB9C6;
     padding-left: 20px;
@@ -154,6 +158,10 @@ aside h3, aside h4 {
     font-size: 0.9em;
 }
 
+.project ul li {
+    height: auto;
+}
+
 .project .pin {
     margin-top: 10px;
     float: right;
@@ -189,7 +197,7 @@ footer a.jump-top {
     width: 54px;
     height: 30px;
     margin: 0 auto;
-    background: url('./../img/ico_top.png') no-repeat top center;
+    background: url('../fonts/./../img/ico_top.png') no-repeat top center;
 }
 
 #more {
@@ -202,7 +210,7 @@ footer a.jump-top {
 }
 
 
-/* TODO: A FACTORISER */
+/* TODO: Refactor in Bootstrap */
 
 @media (min-width: 1200px) {
     .thumbnails .span3 {

@@ -190,24 +190,15 @@
                             <div class="span9">
                                 <div class="padded">
                                     <p>
-                                        <strong>How was last night</strong> is an expert system written in Lisp that basically helps you decide whether you had a great time during an event or party. The result is based on a combination of the user's answers to a certain number of questions.
+                                        <strong>How was last night</strong> is an expert system written in Lisp that basically helps you decide whether you had a great time during an event or party or not. The result is based on a combination of the user's answers to a certain number of questions.
                                     </p>
                                     <p>
-                                        Inference engines
+                                        The system uses an inference engine, itself relying on a process called forward-chaining.
+                                        Basically, the engine collects data and uses a set of rules to extract more data, until it is able to make a final conclusion.
                                     </p>
-                                    <div class="screenshots">
-                                        <ul class="thumbnails">
-                                            <li class="span3">
-                                                <a href="./static/img/projects/mango/Mango-1.png" class="thumbnail"><img src="./static/img/projects/mango/thumbs/Mango-1.png" alt="Mango screenshot"/></a>
-                                            </li>
-                                            <li class="span3">
-                                                <a href="./static/img/projects/mango/Mango-2.png" class="thumbnail"><img src="./static/img/projects/mango/thumbs/Mango-2.png" alt="Mango screenshot"/></a>
-                                            </li>
-                                            <li class="span3">
-                                                <a href="./static/img/projects/mango/Mango-3.png" class="thumbnail"><img src="./static/img/projects/mango/thumbs/Mango-3.png" alt="Mango screenshot"/></a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                    <p>
+                                        Although the subject seems quite fun, the implementation was not easy and we spent a fair amount of time on this. <strong>How was last night</strong> was developed as the final project of an Artifical intelligence class.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -220,7 +211,7 @@
                                 <ul>
                                     <li>
                                         <p>
-                                            Source avalaible at <a href="https://github.com/tkeunebr/HOWWASLASTNIGHTTODO">https://github.com/tkeunebr/howwaslastnight</a>
+                                            Source avalaible soon
                                         </p>
                                     </li>
                                     <li>
@@ -318,32 +309,27 @@
                 <div class="row">
                     <div class="span9">
                         <div class="padded">
-                            <h1>UVWeb</h1>
+                            <h1>UVweb</h1>
                         </div>
                         <div class="row">
                             <div class="span9">
                                 <div class="padded">
                                     <p>
-                                        <strong>Mango</strong> is a web-browser based on the famous web engine <a href="http://www.webkit.org/">WebKit</a>,
-                                        which is used in world-class browsers such as Google Chrome and Safari.
+                                        <a href="http://assos.utc.fr/uvweb/"><strong>UVweb</strong></a> is a website that helps UTC's students choose their classes each semester. It allows every student to grade and give comments about classes, teachers and talk about their own curriculum.
                                     </p>
                                     <p>
-                                        I built it as I was studying in Germany, and it was my first
-                                        <em>big</em> project to achieve. The UI was designed with Qt, which means it can run on several platforms.
+                                        Each semester, we provide the success rate for each class and that's one of the things that make UVweb so famous at the UTC.
                                     </p>
-                                    <div class="screenshots">
-                                        <ul class="thumbnails">
-                                            <li class="span3">
-                                                <a href="./static/img/projects/mango/Mango-1.png" class="thumbnail"><img src="./static/img/projects/mango/thumbs/Mango-1.png" alt="Mango screenshot"/></a>
-                                            </li>
-                                            <li class="span3">
-                                                <a href="./static/img/projects/mango/Mango-2.png" class="thumbnail"><img src="./static/img/projects/mango/thumbs/Mango-2.png" alt="Mango screenshot"/></a>
-                                            </li>
-                                            <li class="span3">
-                                                <a href="./static/img/projects/mango/Mango-3.png" class="thumbnail"><img src="./static/img/projects/mango/thumbs/Mango-3.png" alt="Mango screenshot"/></a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                    <p>
+                                        We intend to rebuild UVweb from scratch, making its database more flexible, changing the underlying technology, improving it's UI and UX, providing powerful webservices and an Android application as well. All of this should be coming within a few months. Stay tuned !
+                                    </p>
+                                    <p>
+                                        You can follow the UVweb's V2 development on Github:
+                                            <ul>
+                                                <li><a href="https://github.com/uvweb/UVwebForAndroid">Android app</a></li>
+                                                <li><a href="https://github.com/uvweb/UVweb">Web app</a></li>
+                                            </ul>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -351,7 +337,7 @@
                     <div class="span3">
                         <div class="padded">
                             <aside>
-                                <h3>About UVWeb</h3>
+                                <h3>About UVweb</h3>
                                 <img src="./static/img/bulle.png" alt="arrow-aside" class="arrow-aside" />
                                 <p class="icon">
                                     <img src="./static/img/UVWeb-icon.gif" alt="UVWeb" />
@@ -364,7 +350,7 @@
                                     </li>
                                     <li>
                                         <p>
-                                            Personal project, community involvement
+                                            Community involvement
                                         </p>
                                     </li>
                                     <li>

@@ -1,5 +1,5 @@
 <?php
-	if (isset($_GET['p']) && !empty($_GET['p']) && is_file($_GET['p'].'.php') && $_GET['p'] != "projects") {
+	if (isset($_GET['p']) && !empty($_GET['p']) && is_file($_GET['p'].'.php')) {
 	        include $_GET['p'].'.php';
 	}
 	else {

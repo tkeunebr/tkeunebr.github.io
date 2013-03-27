@@ -1,0 +1,821 @@
+* /* Reset the default margin and padding */
+{
+	padding: 0;
+	margin: 0;
+}
+
+body
+{
+	padding: 0px; /* for Opera Browser */
+	text-align: center; /* for IE */
+    font: 0.8em "Trebuchet MS", helvetica, sans-serif;
+	background: white url(../media/background.png) repeat-x scroll top left;
+}
+
+a img
+{
+    border: none;
+}
+
+/* Main Div */
+
+#container
+{
+    background: transparent url(../media/highlight.png) no-repeat scroll top left;
+    width: 900px; 
+    text-align: left; /* restablish the alignment to default (now that IE is fixed) */
+    margin: 0 auto; /* to center this div */
+}
+
+/* Mango logo */
+
+#header a
+{
+	float: left; /* we put it on left */
+	margin-top: -10px;
+}
+
+/* Menu */
+
+#menu 
+{
+    margin-top: 40px;
+    background-color: white;
+    float: left;
+    margin-bottom: 40px;
+    clear: left;
+	border: 3px solid #F1F1F1;
+	position: relative;
+	z-index: 1;
+}
+
+#menu ul 
+{
+    margin: 0;
+    padding : 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#menu li 
+{
+	width: 150px;
+	height: 30px;
+    background-color: white;
+    display: block;
+    float: left; /* this way the li elements display horizontally */
+    font-size: 17px;
+    text-decoration: none;
+}
+
+#menu li:hover a:hover
+{
+	background-color: #1a5ca6;
+	color: white;
+	box-shadow: 0px 0px 5px black;
+	-webkit-box-shadow: 0px 0px 5px black;
+	-moz-box-shadow: 0px 0px 5px black;
+}
+
+#menu li a
+{
+	margin: 0 auto;
+	line-height: 30px;
+	display: block;
+	width: 150px;
+	height: 30px;
+	text-decoration: none;
+	color: #103f89;
+	font-variant: small-caps;
+}
+
+#menu li a:hover
+{
+	color: white;
+}
+
+#menu ul li ul 
+{
+	display: none; /* the submenus are not displayed when the user loads the page */
+}
+
+#menu ul li:hover ul 
+{
+	display: block; /* the submenu is displayed when the user hovers the corresponding li element */
+}
+
+#menu li:hover ul li 
+{
+	float: none;
+}
+
+/* Breadcrumb */
+
+#breadcrumb
+{
+	width: 500px;
+}
+
+#breadcrumb ul, #breadcrumb li
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}  
+
+#breadcrumb ul
+{
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	margin: 10px auto;
+	padding: 10px;
+}  
+
+#breadcrumb li.first /* first element of the list */
+{
+	background: url(../media/firstLeft.png) 0 0 no-repeat;
+	height: 33px;
+}
+
+#breadcrumb li /* every element of the list except the first and the last */
+{
+	float: left; /* li displayed inline */
+	background: url(../media/generalLeft.png) 0 0 no-repeat;
+	line-height: 33px;
+	margin: 5px -5px 0 0;
+	padding-left: 13px;
+}
+
+#breadcrumb li a, #breadcrumb li span /* a : central elements, span : last element */
+{
+	float: left;
+	background: url(../media/bgGradient.jpg) 0 0 repeat-x;
+	height: 33px;
+	margin: 0;
+	padding: 0 0 0 5px;
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 0.02em;
+	color: #4D4D4D;
+}  
+
+#breadcrumb li a:hover, #breadcrumb li a:active
+{
+	color:#DF9F30;
+}
+
+#breadcrumb li a:visited, #breadcrumb li a:link, 
+{
+	color:#777;
+}
+
+#breadcrumb li span.end /* for the last picture */
+{
+	float: left;
+	background: url(../media/generalRight.png) 0 0 no-repeat;
+	width: 15px;
+	height: 33px;
+}
+
+/* Content */
+
+#content h1 /* for all the main titles */
+{
+	display: block;
+	padding-left: 25px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	line-height: 25px;
+	font-size: 2em;
+	color: #1a5ca6;
+	border-bottom: 1px solid #1a5ca6;
+}
+
+#content h3
+{
+	padding-left: 5px;
+	border-bottom: 1px solid #1a5ca6;
+	border-left: 3px solid #1a5ca6;
+	color: #1a5ca6;
+}
+
+#content p
+{
+	text-align: justify;
+	text-indent: 2em;
+	line-height: 1.7em;
+}
+
+#content p:first-letter
+{
+	font-size: 1.7em;
+}
+
+#content a
+{
+	color: #1a5ca6;
+}
+
+#content img:hover
+{
+	opacity: 0.8;
+}
+
+#chooseLanguage
+{
+    float: right;
+}
+
+.clearme 
+{
+    clear: both;
+	padding-top: 20px;
+}
+
+/* Content for the index page */
+
+#chooseLanguage select /* Select to change the language */
+{
+	width: 100px;
+}
+
+.logo /* main logo Mango Earth */
+{
+    float: left;
+    width: 337px;
+	padding-right: 80px;
+	padding-top: 35px;
+}
+
+.mangoDescription /* description next to the earth picture */
+{
+	float: left; 
+	width: 400px;
+}
+
+.mangoDescription h1
+{
+	font-variant: small-caps;
+}
+
+.description
+{
+    clear: both;
+    color: #4D4D4D;
+    font-size: 14px;
+    line-height: 24px;
+    display: block;
+    width: 460px;
+	text-align: justify;
+}
+
+.mangoScreenshots
+{
+	float: right;
+}
+
+.screenshot /* screenshots on the main page */
+{
+	overflow: hidden; 
+	width: 130px;
+	height: 100px;
+	float: left;
+}
+
+.screenshot img
+{
+	margin-left: 5px;
+	margin-top: 5px;
+	box-shadow: 0px 0px 5px black;
+	-webkit-box-shadow: 0px 0px 5px black;
+	-moz-box-shadow: 0px 0px 5px black;
+}
+
+.download
+{
+	float: left;
+	width: 400px;
+}
+
+.download a img
+{
+	padding-left: 25px;
+}
+
+.download h6
+{
+	padding-left: 50px;
+}
+
+.more
+{
+	text-align: right;
+}
+
+/* Footer */
+
+#footer
+{
+	background-color: white;
+	background-image: url(../media/footerBackground.png);
+	background-repeat: repeat-x;
+	clear: both;
+	float: left;
+	width: 100%;
+	text-align: left;
+	margin-top: 30px;
+	padding-bottom: 20px;
+}
+
+#footer ul
+{
+	padding: 0;
+}
+
+#footer ul li /* reset the list style */
+{
+	list-style-type: none;
+}
+
+#footer ul a
+{
+	display: block;
+	font-size: 12px;
+	color: #393938;
+	margin-top: 10px;
+}
+
+#footerContent
+{
+	padding: 40px 10px 40px;
+	width: 900px;
+	margin: 0 auto;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+}
+
+#footerLogo a
+{
+	float: left;
+	padding-right: 50px;
+}
+
+.footerColumn
+{
+	width: 150px;
+	float: left;
+}
+
+.footerColumn a
+{
+	text-decoration: none;
+}
+
+.footerColumn a:hover
+{
+	text-decoration: underline;
+}
+
+.footerColumnTitle /* footer categories */
+{
+	color: #4D4D4D;
+	font-weight: bold;
+	font-size: 13px;
+	font-variant: small-caps; 
+	padding-bottom: 10px;
+}
+
+#split /* content/footer separation */
+{
+	background-image: url(../media/divider.png);
+	height: 15px;
+	width: 100%;
+}
+
+#supportedNav 
+{
+	margin-top: 60px;
+	float: right;
+	width: 300px;
+	color: #4D4D4D;
+	font-size: 0.7em;
+	text-align: right;
+}
+
+#supportedNav img:hover
+{
+	opacity: 0.8;
+}
+
+/* for the node pages "mango.html" and "support.html" */
+
+.nodeNav li
+{
+	list-style-type: none;
+}
+
+.nodeNav
+{
+	margin: 0 auto;
+	margin-top: 80px;
+	margin-bottom: 40px;
+	margin-left: 50px;
+	font-size: 1.7em;
+	font-family: Cambria, "Trebuchet MS", helvetica, sans-serif;
+}
+
+.nodeNav a
+{
+	text-decoration: none;
+	display: block;
+	padding-bottom: 20px;
+}
+
+.nodeNav li:hover
+{
+	background-color: White;
+}
+
+/* About page */
+
+#aboutQt
+{
+	margin: 0 auto;
+	margin-top: 80px;
+}
+
+#aboutQt img
+{
+	float: right;
+	margin-top: 40px;
+}
+
+/* Form in the contact.php page */
+
+#contact
+{
+	height: 300px;
+	margin-top: 80px;
+	margin-bottom: 100px;
+}
+
+.form_col 
+{
+	display: inline-block;
+	margin-right: 15px;
+	padding: 3px 0px;
+	width: 100px;
+	min-height: 1px;
+	text-align: right;
+}
+
+#contactForm input 
+{
+	padding: 2px;
+	border: 1px solid #CCC;
+	font-family: "Trebuchet MS", Cambria,  helvetica, sans-serif;
+}
+
+.submitButtons
+{
+	margin-left: 415px;
+}
+
+#contactForm input:focus 
+{
+  	border-color: rgba(82, 168, 236, 0.75);
+}
+
+.correct 
+{
+ 	border-color: rgba(68, 191, 68, 0.75);
+}
+
+.correct:focus 
+{
+  	border-color: rgba(68, 191, 68, 0.75);
+}
+
+.incorrect
+{
+  	border-color: rgba(191, 68, 68, 0.75);
+}
+
+.incorrect:focus 
+{
+  	border-color: rgba(191, 68, 68, 0.75);
+}
+
+#contactForm .tooltip /* tooltip that is displayed when something is wrong with the form */
+{
+	display: inline-block;
+	margin-left: 20px;
+	padding: 2px 4px;
+	border: 1px solid #555;
+	background-color: #CCC;
+}
+
+#messageSent /* when the message is shown after the user has sent it */
+{
+	margin-top: 80px;
+	margin-left: 70px;
+	margin-bottom: 40px;
+}
+
+#summary /* the message itself */
+{
+	background-color: White;
+	margin-top: 20px;
+	padding: 10px;
+	border: 1px solid #555;
+}
+
+/* Nav Tab in the download.php page */
+
+.tabNav
+{
+	margin: 0 auto;
+	margin-top: 80px;
+	margin-bottom: 40px;
+	width: 700px;
+}
+
+#navList li
+{
+	list-style-type: none;
+	display: inline; /* for the li elements to be horizontal */
+}
+
+#navList li a
+{
+	border: 1px solid #E0E0E0;
+	padding: 3px 6px;
+	background: #F0F0F0;
+	font-size: 25px;
+	text-decoration: none;
+	font-family: Georgia, "Times New Roman", Times, sans-serif;
+}
+
+#navList li a:hover
+{
+	background-color: #F6F6F6;
+}
+
+.tabContent /* content of the different tabs */
+{
+	border: 2px solid #E0E0E0;
+	padding: 20px 15px 15px;
+	display: none; /* hidden by default (the one that is shown is the first, it is defined is the html page */
+}
+
+.tabContent h1
+{
+	margin-top: 20px;
+}
+
+.downloadContent
+{
+	margin-top: 20px;
+	height: 500px;
+}
+
+.downloadContent .os
+{
+	margin-top: 30px;
+	margin-right: 80px;
+	float: right;
+}
+
+.downloadContent .downloadButton
+{
+	margin-top: 50px;
+	margin-left: 80px;
+}
+
+.changeLog
+{
+	margin: 40px;
+	padding: 6px;
+	border: 1px inset;
+	height: 200px;
+	text-align: left;
+	overflow: auto;
+	font-family: "Courier New";
+}
+
+.lastVersion
+{
+	margin: 25px;
+}
+
+.oldVersions
+{
+	font-size: 10px;
+	margin: 25px;
+}
+
+/* Questions and answers in the F.A.Q page */
+
+#questions
+{
+	margin: 0 auto;
+	margin-top: 80px;
+	margin-left: 70px;
+	margin-bottom: 40px;
+	width: 800px;
+	font-family: "Trebuchet MS", helvetica, sans-serif;
+	border: 1px solid #1a5ca6;
+}
+
+/* cliquable divs */
+.toggleTitle
+{
+	display: block;
+	font-size: 1.7em;
+	text-decoration: none;
+	padding: 10px;
+	border-bottom: 1px solid #E0E0E0;
+}
+
+#questions .arrow /* for the arrow */
+{
+	float: right;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+.qContent /* content of the answers */
+{
+	border-bottom: 1px solid #1a5ca6;
+	padding: 20px 15px 15px;
+	display: none; /* hidden by default, show when the user clicks (via showBlock.js) */
+}
+
+#thirdAnswer
+{
+	border-bottom: none; /* to avoid having 2 borders */
+}
+
+/* OS choice and pictures in the screenshots page */
+
+#chooseOs
+{
+	margin: 0 auto;
+	margin-top: 70px;
+	margin-left: 80px;
+	margin-bottom: 40px;
+	width: 800px;
+	font-family: "Trebuchet MS", helvetica, sans-serif;
+	border: 1px solid #1a5ca6;
+}
+
+#chooseOs .arrow /* for the arrow */
+{
+	float: right;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+.screenContent /* content of the divs */
+{
+	border-bottom: 1px solid #1a5ca6;
+	padding: 20px 15px 15px;
+	display: none; /* hidden by default, show when the user clicks (via showBlock.js) */
+	text-align: left;
+	height: 300px;
+}
+
+.screenContent img /* screenshots */
+{
+	float: left;
+	margin: 25px;
+	box-shadow: 0px 0px 5px black;
+	-webkit-box-shadow: 0px 0px 5px black;
+	-moz-box-shadow: 0px 0px 5px black;
+}
+
+/* feature table in the features.html page */
+
+table
+{
+	border-collapse: collapse;
+	margin: 0 auto;
+	margin-top: 80px;
+	margin-bottom: 10px;
+	border: 4px outset #1a5ca6;
+}
+
+th
+{
+	font-family: "Trebuchet MS", helvetica, sans-serif;
+	font-size: 1.2em;
+}
+
+td, th
+{
+   	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+}
+
+td:hover
+{
+	color: #1a5ca6;
+}
+
+/* Impressum seite */
+
+#mentions
+{
+	margin: 0 auto;
+	font-family: Arial, sans-serif;
+	font-size: 0.9em;
+	line-height: 1.4;
+	background-color: White;
+	border: 2px solid #CCC;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	padding: 12px 15px 0;
+	padding-bottom: 10px;
+	width: 800px;
+	color: #333;
+	height: 520px;
+}
+
+#mentions h1
+{
+	font-size: 1.8em;
+	line-height: 1.15;
+	margin-top: 5px;
+	font-weight: normal;
+	padding: 0;
+	color: #333;
+	border: none;
+}
+
+#mentions p
+{
+	font-size: inherit;
+	line-height: 1.4;
+	margin-bottom: 30px;
+	padding-top: .05em;
+	text-indent: 0;
+}
+
+#mentions p:first-letter
+{
+	font-size: inherit;
+}
+
+#mentions table
+{
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: none;
+	margin: 0px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+#mentions td
+{
+	background-color: #F4F4F4;
+	border-bottom: 2px solid white;
+	padding: 4px 8px;
+}
+
+#mentions th
+{
+	font-size: .7em;
+	line-height: 1.4;
+	font-family: Arial, sans-serif;
+}
+
+#mentions td, th
+{
+   	border-top: none;
+	border-left: none;
+	border-right: none;
+	text-align: left;
+}
+
+#impressum .texturl a
+{
+	color: #333;
+	font-weight: bold;
+	padding: 0 0 0 12px;
+}
+
+#mentions td:hover
+{
+	color: #333;
+}
+
+#linkTop
+{
+	font-size: .9em;
+	padding-left: 10px;
+	float: right;
+	padding-bottom: 15px;
+}
+

@@ -1,0 +1,189 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+      <title>Mango - Parcours le monde</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15">
+		<link rel="stylesheet" media="screen" type="text/css" title="Design" href="../../scripte/design.css">
+        <link rel="shortcut icon" type="image/png" href="../../media/favicon.png">
+		<!-- Shadowbox addon -->
+		<link rel="stylesheet" type="text/css" href="../../scripte/shadowbox/shadowbox.css">
+		<script type="text/javascript" src="../../scripte/shadowbox/shadowbox.js"></script>
+		<script type="text/javascript" src="../../scripte/showBlock.js"></script>
+		<script type="text/javascript">
+			Shadowbox.init();
+		</script>
+        <!--[if !IE]> <-->
+            <style type="text/CSS">
+                #menu li ul 
+                {
+                    position:absolute;
+                }
+            </style>
+        <!--><![endif]-->
+    </head>
+	
+	<body>
+	    <div id="container">
+        
+            <div id="header">
+                <a href="index.html"><img src="../../media/fr/home.png" alt='Mango World'></a>
+            </div>
+            
+            <div id="chooseLanguage">
+                <form method="get" action="../../index.php">
+                    <p>
+                        <select name="lang" id="lang" onChange="this.form.submit();">
+                            <option value="en">English</option>
+                            <option value="de">Deutsch</option>
+                            <option value="fr" selected="selected">Français</option>
+                        </select>
+						<input type="hidden" name="page" value="screenshots.html">
+                    </p>
+                </form>
+            </div>
+        
+            <div id="menu">
+		        <ul>
+			        <li><a href="index.html">Accueil</a></li>
+			        <li>
+                        <a href="mango.html">Mango</a>
+                        <ul>
+                                <li><a href="download.php">Télécharger</a></li>
+                                <li><a href="features.html">Fonctionnalités</a></li>
+								<li><a href="screenshots.html">Aperçus</a></li>
+                        </ul>
+                    </li>
+			        <li>
+                        <a href="support.html">Support</a>
+                        <ul>
+                                <li><a href="faq.html">F.a.q</a></li>
+                                <li><a href="aboutUs.html">A propos</a></li>
+								<li><a href="mentions.html">Mentions</a></li>
+                        </ul>
+                    </li>
+			        <li><a href="contact.php">Contact</a></li>
+		        </ul>
+            </div>
+			
+			<div id="breadcrumb">
+				<ul>
+					<li class="first">
+						<a href="index.html" title="Aller à l'accueil"><img src="../../media/navHome.png" alt="Aller à l'accueil"></a><span class="end"></span>
+					</li>
+					<li>
+						<a href="mango.html" title="Aller à la page Mango">Mango</a><span class="end"></span>
+					</li>
+					<li>
+						<span>Aperçus</span><span class="end"></span>
+					</li>
+				</ul>
+			</div>
+			
+			<div id="content">
+			
+				<div class="clearme">
+					
+					<h1>Captures d'écran</h1>
+					
+					<div id="chooseOs">
+						<div id="winScreenshots">
+							<a href="#windows" onclick="toggleMe('toggleWin');" class="toggleTitle">Windows<img id="winArrow" class="arrow" src="../../media/arrowUp.gif" alt="Flèche navigation"></a>
+							<div class="screenContent" id="toggleWin" style="display: block;">
+								<a href="../../media/screenshotWindows.png" rel="shadowbox[screenshots]"><img src="../../media/thumbs/screenshotWindows.png" alt="Mango - Windows"></a>
+								<a href="../../media/screenshotWindows1.png" rel="shadowbox[screenshots]"><img src="../../media/thumbs/screenshotWindows1.png" alt="Mango - Windows"></a>
+								<a href="../../media/screenshotWindows2.png" rel="shadowbox[screenshots]"><img src="../../media/thumbs/screenshotWindows2.png" alt="Mango - Windows"></a>
+								<a href="../../media/screenshotWindows3.png" rel="shadowbox[screenshots]"><img src="../../media/thumbs/screenshotWindows3.png" alt="Mango - Windows"></a>
+								<a href="../../media/screenshotWindows4.png" rel="shadowbox[screenshots]"><img src="../../media/thumbs/screenshotWindows4.png" alt="Mango - Windows"></a>
+								<a href="../../media/screenshotWindows5.png" rel="shadowbox[screenshots]"><img src="../../media/thumbs/screenshotWindows5.png" alt="Mango - Windows"></a>
+							</div>
+						</div>
+						<div id="linuxScreenshots">
+							<a href="#linux" onclick="toggleMe('toggleLinux');" class="toggleTitle">Linux<img id="linuxArrow" class="arrow" src="../../media/arrowDown.gif" alt="Flèche navigation"></a>
+							<div class="screenContent" id="toggleLinux">
+								<a href="../../media/screenshotLinux.png" rel="shadowbox[screenshotsLinux]"><img src="../../media/thumbs/screenshotLinux.png" alt="Mango - Linux"></a>
+								<a href="../../media/screenshotLinux1.png" rel="shadowbox[screenshotsLinux]"><img src="../../media/thumbs/screenshotLinux1.png" alt="Mango - Linux"></a>
+								<a href="../../media/screenshotLinux2.png" rel="shadowbox[screenshotsLinux]"><img src="../../media/thumbs/screenshotLinux2.png" alt="Mango - Linux"></a>
+								<a href="../../media/screenshotLinux3.png" rel="shadowbox[screenshotsLinux]"><img src="../../media/thumbs/screenshotLinux3.png" alt="Mango - Linux"></a>
+								<a href="../../media/screenshotLinux4.png" rel="shadowbox[screenshotsLinux]"><img src="../../media/thumbs/screenshotLinux4.png" alt="Mango - Linux"></a>
+								<a href="../../media/screenshotLinux5.png" rel="shadowbox[screenshotsLinux]"><img src="../../media/thumbs/screenshotLinux5.png" alt="Mango - Linux"></a>	
+							</div>
+						</div>
+						<div id="macScreenshots">
+							<a href="#mac" onclick="toggleMe('toggleMac');" class="toggleTitle">Mac<img id="macArrow" class="arrow" src="../../media/arrowDown.gif" alt="Flèche navigation"></a>
+							<div class="screenContent" id="toggleMac">
+								<a href="../../media/screenshotMac.png" rel="shadowbox[screenshotsMac]"><img src="../../media/thumbs/screenshotMac.png" alt="Mango - Mac"></a>
+								<a href="../../media/screenshotMac1.png" rel="shadowbox[screenshotsMac]"><img src="../../media/thumbs/screenshotMac1.png" alt="Mango - Mac"></a>
+								<a href="../../media/screenshotMac2.png" rel="shadowbox[screenshotsMac]"><img src="../../media/thumbs/screenshotMac2.png" alt="Mango - Mac"></a>
+								<a href="../../media/screenshotMac3.png" rel="shadowbox[screenshotsMac]"><img src="../../media/thumbs/screenshotMac3.png" alt="Mango - Mac"></a>
+								<a href="../../media/screenshotMac4.png" rel="shadowbox[screenshotsMac]"><img src="../../media/thumbs/screenshotMac4.png" alt="Mango - Mac"></a>
+								<a href="../../media/screenshotMac5.png" rel="shadowbox[screenshotsMac]"><img src="../../media/thumbs/screenshotMac5.png" alt="Mango - Mac"></a>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		
+		<div id="footer">
+            <div id="split"></div>
+            <div id="footerContent">
+                <span id="footerLogo">
+					<a href="index.html"><img src="../../media/footerImage.png" alt="Mango World"></a>
+				</span>
+				<div class="footerColumn">
+					<div class="footerColumnTitle">
+						MANGO
+					</div>
+					<ul>
+						<li>
+							<a href="features.html">Fonctionnalités</a>
+						</li>
+						<li>
+							<a href="download.php">Télécharger</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footerColumn">
+					<div class="footerColumnTitle">
+						PLUS D'INFOS
+					</div>
+					<ul>
+						<li>
+							<a href="aboutUs.html">A propos</a>
+						</li>
+						<li>
+							<a href="faq.html">F.A.Q</a>
+						</li>
+						<li>
+							<a href="mentions.html">Mentions</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footerColumn">
+					<div class="footerColumnTitle">
+						CONTACT
+					</div>
+					<ul>
+						<li>
+							<a href="contact.php">Nous contacter</a>
+						</li>
+					</ul>
+				</div>
+				<div id="supportedNav">
+					<a href="http://www.mozilla.com/"><img src="../../media/mozillaFirefox.png" alt="Mozilla Firefox logo"></a>
+					<a href="http://www.google.com/chrome"><img src="../../media/googleChrome.png" alt="Google Chrome logo"></a><br>
+					Optimisé pour Google Chrome et Mozilla Firefox	
+					<br><br>
+					<p>
+						<a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01 Strict" height="31" width="88"></a>
+  					</p>
+				</div>
+            </div>
+        </div>
+		
+	</body>
+</html>
+

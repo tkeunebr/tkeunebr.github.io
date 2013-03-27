@@ -1,0 +1,162 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+      <title>Mango - Parcours le monde</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15">
+		<link rel="stylesheet" media="screen" type="text/css" title="Design" href="../../scripte/design.css">
+        <link rel="shortcut icon" type="image/png" href="../../media/favicon.png">
+		<script type="text/javascript" src="../../scripte/showBlock.js"></script>
+        <!--[if !IE]> <-->
+            <style type="text/CSS">
+                #menu li ul 
+                {
+                    position:absolute;
+                }
+            </style>
+        <!--><![endif]-->
+    </head>
+	
+	<body>
+	    <div id="container">
+        
+            <div id="header">
+                <a href="index.html"><img src="../../media/fr/home.png" alt='Mango World'></a>
+            </div>
+            
+            <div id="chooseLanguage">
+                <form method="get" action="../../index.php">
+                    <p>
+                        <select name="lang" id="lang" onChange="this.form.submit();">
+                            <option value="en">English</option>
+                            <option value="de">Deutsch</option>
+                            <option value="fr" selected="selected">Français</option>
+                        </select>
+						<input type="hidden" name="page" value="faq.html">
+                    </p>
+                </form>
+            </div>
+        
+            <div id="menu">
+		        <ul>
+			        <li><a href="index.html">Accueil</a></li>
+			        <li>
+                        <a href="mango.html">Mango</a>
+                        <ul>
+                                <li><a href="download.php">Télécharger</a></li>
+                                <li><a href="features.html">Fonctionnalités</a></li>
+								<li><a href="screenshots.html">Aperçus</a></li>
+                        </ul>
+                    </li>
+			        <li>
+                        <a href="support.html">Support</a>
+                        <ul>
+                                <li><a href="faq.html">F.a.q</a></li>
+                                <li><a href="aboutUs.html">A propos</a></li>
+								<li><a href="mentions.html">Mentions</a></li>
+                        </ul>
+                    </li>
+			        <li><a href="contact.php">Contact</a></li>
+		        </ul>
+            </div>
+			
+			<div id="breadcrumb">
+				<ul>
+					<li class="first">
+						<a href="index.html" title="Aller à l'accueil"><img src="../../media/navHome.png" alt="Aller à l'accueil"></a><span class="end"></span>
+					</li>
+					<li>
+						<a href="support.html" title="Aller à la page de support">Support</a><span class="end"></span>
+					</li>
+					<li>
+						<span>F.A.Q</span><span class="end"></span>
+					</li>
+				</ul>
+			</div>
+			
+			<div id="content">
+			
+				<div class="clearme">
+					
+					<h1>F.A.Q</h1>
+					
+					<div id="questions">
+						<div id="firstQuestion">
+							<a href="#Q1" onclick="showMe('firstAnswer','firstArrow');" class="toggleTitle">Q1 : Qu'est ce que Mango en réalité ? A quoi sert-il ? <img id="firstArrow" class="arrow" src="../../media/arrowDown.gif" alt="Flèche navigation"></a>
+							<div class="qContent" id="firstAnswer">Mango est un navigateur web multiplateforme basé sur Webkit, le moteur web actuel le plus puissant ! Mango est rapide et sécurisé.</div>
+						</div>
+						<div id="secondQuestion">
+							<a href="#Q2" onclick="showMe('secondAnswer','secondArrow');" class="toggleTitle">Q2 : Pourquoi faut-il que j'essaie Mango ? <img id="secondArrow" class="arrow" src="../../media/arrowDown.gif" alt="Flèche navigation"></a>
+							<div class="qContent" id="secondAnswer">Ca vaut le coup. Vous pouvez choisir le système d'exploitation que vous préférez. Si vous n'aimez pas, dites-nous pourquoi, nous sommes à votre écoute !</div>
+						</div>
+						<div id="thirdQuestion">
+							<a href="#Q3" onclick="showMe('thirdAnswer','thirdArrow');" class="toggleTitle">Q3 : Qui est le créateur de Mango, et pourquoi ? <img id="thirdArrow" class="arrow" src="../../media/arrowDown.gif" alt="Flèche navigation"></a>
+							<div class="qContent" id="thirdAnswer">Je m'appelle Thomas Keunebroek, et j'ai créé ce petit navigateur dans le cadre d'un projet, pendant que j'étudiais à Braunschweig (Allemagne). Dites-moi ce que vous en pensez !</div>
+						</div>
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		
+		<div id="footer">
+            <div id="split"></div>
+            <div id="footerContent">
+                <span id="footerLogo">
+					<a href="index.html"><img src="../../media/footerImage.png" alt="Mango World"></a>
+				</span>
+				<div class="footerColumn">
+					<div class="footerColumnTitle">
+						MANGO
+					</div>
+					<ul>
+						<li>
+							<a href="features.html">Fonctionnalités</a>
+						</li>
+						<li>
+							<a href="download.php">Télécharger</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footerColumn">
+					<div class="footerColumnTitle">
+						PLUS D'INFOS
+					</div>
+					<ul>
+						<li>
+							<a href="aboutUs.html">A propos</a>
+						</li>
+						<li>
+							<a href="faq.html">F.A.Q</a>
+						</li>
+						<li>
+							<a href="mentions.html">Mentions</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footerColumn">
+					<div class="footerColumnTitle">
+						CONTACT
+					</div>
+					<ul>
+						<li>
+							<a href="contact.php">Nous contacter</a>
+						</li>
+					</ul>
+				</div>
+				<div id="supportedNav">
+					<a href="http://www.mozilla.com/"><img src="../../media/mozillaFirefox.png" alt="Mozilla Firefox logo"></a>
+					<a href="http://www.google.com/chrome"><img src="../../media/googleChrome.png" alt="Google Chrome logo"></a><br>
+					Optimisé pour Google Chrome et Mozilla Firefox	
+					<br><br>
+					<p>
+						<a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01 Strict" height="31" width="88"></a>
+  					</p>
+				</div>
+            </div>
+        </div>
+		
+	</body>
+</html>
+

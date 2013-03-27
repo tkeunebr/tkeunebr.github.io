@@ -92,11 +92,6 @@
                                     </li>
                                     <li>
                                         <p>
-                                            Doxygen doc avalaible at <a href="./projects/museum">thomaskeunebroek.fr/projects/museum</a>
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
                                             School project
                                         </p>
                                     </li>
@@ -156,11 +151,6 @@
                                         <li>
                                             <p>
                                                 Source avalaible at <a href="https://github.com/tkeunebr/Calculator">github.com/tkeunebr/Calculator</a>
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                Doxygen doc avalaible at <a href="./projects/calculator">thomaskeunebroek.fr/projects/calculator</a>
                                             </p>
                                         </li>
                                         <li>

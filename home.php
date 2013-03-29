@@ -42,7 +42,7 @@
                             I am a French Computer Science Student and this website is aimed at introducing myself as well as presenting the main projects I've been working on during the past few years.
                         </p>
                         <p>
-                            I'm passionate about new technologies, especially about all the things regarding web and mobile. At this point, you can have a look at my projects, check out my resume and get in touch with me. Browse safe ! :)
+                            I'm passionate about new technologies, especially about all the things regarding web and mobile and user interfaces. At this point, you can have a look at my projects, check out my resume and get in touch with me. Browse safe ! :)
                         </p>
                         <p class="right top-spaced">
                             <a class="btn btn-large btn-primary obfuscated-link" href="thomas keunebroek gmail com">

@@ -26,27 +26,21 @@
                             ?>
                                 <li><a href="./?p=home">Home</a></li>
                                 <li class="active"><a href="./?p=projects">Projects</a></li>
-                                <li>
-                                    <a rel="tooltip" href="./?p=resume" data-original-title="Available in PDF only at the time">Resume</a>
-                                </li>
+                                <li><a href="./?p=resume">Resume</a></li>
                             <?php
                                     }
                                     else if ($page == "resume") {
                             ?>
                                 <li><a href="./?p=home">Home</a></li>
                                 <li><a href="./?p=projects">Projects</a></li>
-                                <li class="active">
-                                    <a rel="tooltip" href="./?p=resume" data-original-title="Available in PDF only at the time">Resume</a>
-                                </li>
+                                <li class="active"><a href="./?p=resume">Resume</a></li>
                             <?php
                                     }
                                     else {
                             ?>
                                 <li class="active"><a href="./?p=home">Home</a></li>
                                 <li><a href="./?p=projects">Projects</a></li>
-                                <li>
-                                    <a rel="tooltip" href="./?p=resume" data-original-title="Available in PDF only at the time">Resume</a>
-                                </li>
+                                <li><a href="./?p=resume">Resume</a></li>
                             <?php
                                     }
                                 }
@@ -54,9 +48,7 @@
                             ?>
                                 <li class="active"><a href="./?p=home">Home</a></li>
                                 <li><a href="./?p=projects">Projects</a></li>
-                                <li>
-                                    <a rel="tooltip" href="./?p=resume" data-original-title="Available in PDF only at the time">Resume</a>
-                                </li>
+                                <li><a href="./?p=resume">Resume</a></li>
                             <?php
                                 }
                             ?>

@@ -30,8 +30,14 @@
         <div class="container">
 
             <div class="hero-unit">
-                <h1>Resume</h1>
-                <a href="./static/resume.pdf">Also available in PDF<img src="./static/img/Pdf-icon.png"></a>
+                <div class="row">
+                    <div class="span3"><h1>Resume</h1></div>
+                    <div class="span3 offset5">
+                        <div class="padded">
+                            <a class="btn btn-primary" href="./static/resume.pdf">Also available in PDF<img src="./static/img/Pdf-icon.png"></a>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <section id="resume">

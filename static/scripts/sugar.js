@@ -1,5 +1,5 @@
 	/**
-	sugar.js: just a few helper jQuery functions for thomaskeunebroek.fr look and feel
+	*	sugar.js: just a few helper jQuery functions for thomaskeunebroek.fr look and feel
 	*/
 
 	$(".jump-top").click(function() {
@@ -23,7 +23,7 @@
 
 	$(".obfuscated-all").each(function(){
 	  var w = $(this).text();
-	  var deObfuscatedText = w.replace(/ /,".").replace(/ /,"@").replace(/ /, '.')
+	  var deObfuscatedText = w.replace(/ /,".").replace(/ /,"@").replace(/ /, '.');
 	  $(this).text(deObfuscatedText);
 	  $(this).attr("href", "mailto:" + deObfuscatedText);
 	});

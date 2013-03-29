@@ -53,6 +53,13 @@
                                 <h1>Thomas Keunebroek</h1>
                                 <h2>Computer Science Student</h2>
                                 <address><i class="icon-map-marker"></i>Plessis Bouchard, France</address>
+                                <a class="obfuscated-all" href="thomas keunebroek gmail com"><i class="icon-envelope"></i>thomas keunebroek gmail com</a>
+                                <a href="http://www.thomaskeunebroek.fr"><i class="icon-bookmark"></i>thomaskeunebroek.fr</a>
+                                <a href="http://www.facebook.com/thomas.keunebroek"></i>Facebook</a>
+                                <a href="http://twitter.com/tkeunebr"></i>Twitter</a>
+                                <a href="http://github.com/tkeunebr"></i>Github</a>
+                                <a href="https://plus.google.com/103045489242457521768"></i>Google Plus</a>
+                                <a href="http://www.linkedin.com/in/tkeunebr"></i>Linkedin</a>
                             </div>
                         </div>
                     </div>
@@ -66,15 +73,7 @@
                         </div>
                         <div class="span4">
                             <div class="padded">
-                                <ul>
-                                    <li><a class="obfuscated-all" href="thomas keunebroek gmail com">thomas keunebroek gmail com</a></li>
-                                    <li><a href="http://www.thomaskeunebroek.fr">thomaskeunebroek.fr</a></li>
-                                    <li><a href="http://www.facebook.com/thomas.keunebroek">Facebook</a></li>
-                                    <li><a href="http://twitter.com/tkeunebr">Twitter</a></li>
-                                    <li><a href="http://github.com/tkeunebr">Github</a></li>
-                                    <li><a href="https://plus.google.com/103045489242457521768">Google Plus</a></li>
-                                    <li><a href="http://www.linkedin.com/in/tkeunebr">Linkedin</a></li>
-                                </ul>
+
                             </div>
                         </div>
                     </div>

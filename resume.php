@@ -31,6 +31,7 @@
 
             <div class="hero-unit">
                 <h1>Resume</h1>
+                <a href="./static/resume.pdf">Also available in PDF<img src="./static/img/Pdf-icon.png"></a>
             </div>
 
             <section id="resume">
@@ -59,27 +60,14 @@
                         </div>
                         <div class="span4">
                             <div class="padded">
-                                <ul class="social">
-                                    <li>
-                                       <a class="mail obfuscated-all" href="thomas keunebroek gmail com">thomas keunebroek gmail com</a>
-                                    </li>
-                                    <li>
-                                        <a class="kerem" href="http://www.thomaskeunebroek.fr">
-                                          thomaskeunebroek.fr
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="facebook" href="http://www.facebook.com/thomas.keunebroek" rel="nofollow" target="_blank">Facebook</a>
-                                    </li>
-                                    <li>
-                                        <a class="twitter" href="http://twitter.com/tkeunebr" rel="nofollow" target="_blank">Twitter</a>
-                                    </li>
-                                    <li>
-                                        <a class="github" href="http://github.com/tkeunebr" rel="nofollow" target="_blank">Github</a>
-                                    </li>
-                                    <li>
-                                        <a href="./static/resume.pdf"><img src="./static/img/Pdf-icon.png">PDF Version</a>
-                                    </li>
+                                <ul>
+                                    <li><a class="obfuscated-all" href="thomas keunebroek gmail com">thomas keunebroek gmail com</a></li>
+                                    <li><a href="http://www.thomaskeunebroek.fr">thomaskeunebroek.fr</a></li>
+                                    <li><a href="http://www.facebook.com/thomas.keunebroek">Facebook</a></li>
+                                    <li><a href="http://twitter.com/tkeunebr">Twitter</a></li>
+                                    <li><a href="http://github.com/tkeunebr">Github</a></li>
+                                    <li><a href="https://plus.google.com/103045489242457521768">Google Plus</a></li>
+                                    <li><a href="http://www.linkedin.com/in/tkeunebr">Linkedin</a></li>
                                 </ul>
                             </div>
                         </div>

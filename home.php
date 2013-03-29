@@ -70,7 +70,7 @@
                             <p id="networks">
                                 <a href="https://www.facebook.com/tkeunebr"><img src="./static/img/facebook.png" alt="Facebook" /></a>
                                 <a href="https://twitter.com/tkeunebr"><img src="./static/img/twitter.png" alt="Twitter" /></a>
-                                <a href="https://plus.google.com/103045489242457521768/posts"><img src="./static/img/plus.png" alt="Google Plus" /></a>
+                                <a href="https://plus.google.com/103045489242457521768"><img src="./static/img/plus.png" alt="Google Plus" /></a>
                                 <a href="http://www.linkedin.com/in/tkeunebr"><img src="./static/img/linkedin.png" alt="Linkedin" /></a>
                             </p>
                         </aside>

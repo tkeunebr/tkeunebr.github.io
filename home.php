@@ -104,7 +104,7 @@
                                 This website has been created using Twitter's famous <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>, a powerful CSS framework.
                             </p>
                             <p>
-                                Its design has been highly inspired by <a href="http://bootswatch.com/">Bootswatch</a>'s Amelia theme. Bootswatch is a service that provides a simple API to create custom Bootstrap themes and has some nice templates that come pretty much out of the box.
+                                Its design has been highly inspired by <a href="http://bootswatch.com/">Bootswatch</a>'s "Amelia "theme. Bootswatch is a service that provides a simple API to create custom Bootstrap themes and has some nice templates that come pretty much out of the box.
                             </p>
                         </div>
                     </div>

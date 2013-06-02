@@ -36,6 +36,75 @@
                 </p>
             </div>
 
+            <div class="project">
+                <div class="row">
+                    <div class="span9">
+                        <div class="padded">
+                            <h1>UVweb</h1>
+                        </div>
+                        <div class="row">
+                            <div class="span9">
+                                <div class="padded">
+                                    <p>
+                                        <a href="http://assos.utc.fr/uvweb/"><strong>UVweb</strong></a> is a website that helps UTC's students choose their classes each semester. It allows every student to grade and give comments about classes, teachers and talk about their own curriculum.
+                                    </p>
+                                    <p>
+                                        Each semester, we provide the success rate for each class and that's one of the things that make UVweb so famous at the UTC.
+                                    </p>
+                                    <p>
+                                        We intend to rebuild UVweb from scratch, making its database more flexible, changing the underlying technology, improving it's UI and UX, providing powerful webservices and an Android application as well. All of this should be coming within a few months. Stay tuned !
+                                    </p>
+                                    <p>
+                                        You can follow the UVweb's V2 development on Github:
+                                            <ul>
+                                                <li><a href="https://github.com/uvweb/UVwebForAndroid">Android app</a></li>
+                                                <li><a href="https://github.com/uvweb/UVweb">Web app</a></li>
+                                            </ul>
+                                    </p>
+                                    <div class="screenshots">
+                                        <ul class="thumbnails">
+                                            <li class="span4">
+                                                <a href="./static/img/projects/uvweb/UVweb-1.png" class="thumbnail"><img src="./static/img/projects/uvweb/thumbs/UVweb-1.png" alt="UVweb screenshot"/></a>
+                                            </li>
+                                            <li class="span4">
+                                                <a href="./static/img/projects/uvweb/UVweb-2.png" class="thumbnail"><img src="./static/img/projects/uvweb/thumbs/UVweb-2.png" alt="UVweb screenshot"/></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="span3">
+                        <div class="padded">
+                            <aside>
+                                <h3>About UVweb</h3>
+                                <img src="./static/img/bulle.png" alt="arrow-aside" class="arrow-aside" />
+                                <p class="icon">
+                                    <img src="./static/img/UVWeb-icon.png" alt="UVWeb" />
+                                </p>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            Avalaible at <a href="http://assos.utc.fr/uvweb/">assos.utc.fr/uvweb</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Community involvement
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            September 2010 - Today
+                                        </p>
+                                    </li>
+                                </ul>
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <div class="project">
                 <div class="row">
@@ -61,14 +130,11 @@
                                     </p>
                                     <div class="screenshots">
                                         <ul class="thumbnails">
-                                            <li class="span3">
+                                            <li class="span4">
                                                 <a href="./static/img/projects/museum/Museum-1.png" class="thumbnail"><img src="./static/img/projects/museum/thumbs/Museum-1.png" alt="Museum screenshot"/></a>
                                             </li>
-                                            <li class="span3">
+                                            <li class="span4">
                                                 <a href="./static/img/projects/museum/Museum-2.png" class="thumbnail"><img src="./static/img/projects/museum/thumbs/Museum-2.png" alt="Museum screenshot"/></a>
-                                            </li>
-                                            <li class="span3">
-                                                <a href="./static/img/projects/museum/Museum-3.png" class="thumbnail"><img src="./static/img/projects/museum/thumbs/Museum-3.png" alt="Museum screenshot"/></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -286,66 +352,6 @@
                                     <li>
                                         <p>
                                             April 2011 - July 2011 (4 months)
-                                        </p>
-                                    </li>
-                                </ul>
-                            </aside>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="project">
-                <div class="row">
-                    <div class="span9">
-                        <div class="padded">
-                            <h1>UVweb</h1>
-                        </div>
-                        <div class="row">
-                            <div class="span9">
-                                <div class="padded">
-                                    <p>
-                                        <a href="http://assos.utc.fr/uvweb/"><strong>UVweb</strong></a> is a website that helps UTC's students choose their classes each semester. It allows every student to grade and give comments about classes, teachers and talk about their own curriculum.
-                                    </p>
-                                    <p>
-                                        Each semester, we provide the success rate for each class and that's one of the things that make UVweb so famous at the UTC.
-                                    </p>
-                                    <p>
-                                        We intend to rebuild UVweb from scratch, making its database more flexible, changing the underlying technology, improving it's UI and UX, providing powerful webservices and an Android application as well. All of this should be coming within a few months. Stay tuned !
-                                    </p>
-                                    <p>
-                                        You can follow the UVweb's V2 development on Github:
-                                            <ul>
-                                                <li><a href="https://github.com/uvweb/UVwebForAndroid">Android app</a></li>
-                                                <li><a href="https://github.com/uvweb/UVweb">Web app</a></li>
-                                            </ul>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="span3">
-                        <div class="padded">
-                            <aside>
-                                <h3>About UVweb</h3>
-                                <img src="./static/img/bulle.png" alt="arrow-aside" class="arrow-aside" />
-                                <p class="icon">
-                                    <img src="./static/img/UVWeb-icon.gif" alt="UVWeb" />
-                                </p>
-                                <ul>
-                                    <li>
-                                        <p>
-                                            Avalaible at <a href="http://assos.utc.fr/uvweb/">assos.utc.fr/uvweb</a>
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            Community involvement
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            September 2010 - Today
                                         </p>
                                     </li>
                                 </ul>

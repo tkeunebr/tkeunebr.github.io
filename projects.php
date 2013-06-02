@@ -40,6 +40,65 @@
                 <div class="row">
                     <div class="span9">
                         <div class="padded">
+                            <h1>Moka</h1>
+                        </div>
+                        <div class="row">
+                            <div class="span9">
+                                <div class="padded">
+                                    <p>
+                                        <a href="http://themokaproject.github.io/"><strong>Moka</strong></a>...
+                                    <p>
+                                        You can follow the Moka's development on Github: <a href="https://github.com/themokaproject">https://github.com/themokaproject</a>
+                                    </p>
+                                    <div class="screenshots">
+                                        <ul class="thumbnails">
+                                            <li class="span4">
+                                                <a href="./static/img/projects/moka/Moka-1.png" class="thumbnail"><img src="./static/img/projects/moka/thumbs/Moka-1.png" alt="Moka screenshot"/></a>
+                                            </li>
+                                            <li class="span4">
+                                                <a href="./static/img/projects/moka/Moka-2.png" class="thumbnail"><img src="./static/img/projects/moka/thumbs/Moka-2.png" alt="Moka screenshot"/></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="span3">
+                        <div class="padded">
+                            <aside>
+                                <h3>About UVweb</h3>
+                                <img src="./static/img/bulle.png" alt="arrow-aside" class="arrow-aside" />
+                                <p class="icon">
+                                    <img src="./static/img/UVWeb-icon.png" alt="UVWeb" />
+                                </p>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            Avalaible at <a href="http://assos.utc.fr/uvweb/">assos.utc.fr/uvweb</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Community involvement
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            September 2010 - Today
+                                        </p>
+                                    </li>
+                                </ul>
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="row">
+                    <div class="span9">
+                        <div class="padded">
                             <h1>UVweb</h1>
                         </div>
                         <div class="row">

@@ -131,13 +131,6 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="screenshots span7 offset1">
-                                    <ul class="thumbnails">
-                                        <li>
-                                            <a href="./static/img/projects/uvweb/UVweb-3.png" class="thumbnail"><img src="./static/img/projects/uvweb/thumbs/UVweb-3.png" alt="UVweb screenshot"/></a>
-                                        </li>
-                                    </ul>
-                                </div>
                             </div>
                         </div>
                     </div>

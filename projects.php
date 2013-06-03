@@ -354,7 +354,7 @@
                                 <div class="padded">
                                     <p>
                                         <strong>Mango</strong> is a web-browser based on the famous web engine <a href="http://www.webkit.org/">WebKit</a>,
-                                        which is used in world-class browsers such as Google Chrome and Safari.
+                                        which is used in world-class browsers such as Google Chrome (well, <a href="http://www.theverge.com/2013/4/5/4186302/google-chrome-blink-coming-to-chrome-28-in-10-weeks">not anymore</a>) and Safari.
                                     </p>
                                     <p>
                                         I built it as I was studying in Germany, and it was my first

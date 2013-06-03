@@ -7,6 +7,7 @@
         <link href="./static/css/bootstrap.min.css" rel="stylesheet">
         <link href="./static/css/bootstrap-responsive.min.css" rel="stylesheet">
         <link href="./static/css/design.css" rel="stylesheet">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,mediumitalic,bold" title="roboto"/>
 
         <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
@@ -85,7 +86,7 @@
                 <div class="row">
                     <div class="span5">
                         <div class="well">
-                            <h3>Personal info<i class="icon-user pull-right"></i></h3>
+                            <h2>Personal info<i class="icon-user pull-right"></i></h2>
                             <address>
                                 <strong>Thomas Keunebroek</strong><br>
                                 3, rue Paul Claudel<br>
@@ -99,7 +100,7 @@
                     </div>
                     <div class="span5 offset2">
                         <div class="well">
-                            <h3>About this website<i class="icon-bookmark pull-right"></i></h3>
+                            <h2>About this website<i class="icon-bookmark pull-right"></i></h2>
                             <p>
                                 This website has been created using Twitter's famous <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>, a powerful CSS framework.
                             </p>

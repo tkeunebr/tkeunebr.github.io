@@ -86,7 +86,7 @@
                                     </li>
                                     <li>
                                         <p>
-                                            April 2013 - June 2013
+                                            April 2013 - June 2013 (3 months)
                                         </p>
                                     </li>
                                 </ul>
@@ -247,19 +247,11 @@
                                     </p>
                                     <p>
                                         It is fully based on the <a href="http://en.wikipedia.org/wiki/Reverse_Polish_notation">Reverse Polnish Notation</a> and has some nice features
-                                        such as a whole Undo/Redo system. It is also a cross-platform app thanks to the
-                                        Qt framework.
+                                        such as a whole Undo/Redo system. It is also a cross-platform app thanks to the Qt framework.
                                     </p>
-                                    <div class="screenshots">
-                                        <ul class="thumbnails">
-                                            <li class="span3">
-                                                <a href="./static/img/projects/calculator/Calculator-1.png" class="thumbnail"><img src="./static/img/projects/calculator/thumbs/Calculator-1.png" alt="Calculator screenshot"/></a>
-                                            </li>
-                                            <li class="span3">
-                                                <a href="./static/img/projects/calculator/Calculator-2.png" class="thumbnail"><img src="./static/img/projects/calculator/thumbs/Calculator-2.png" alt="Calculator screenshot"/></a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                    <p>
+                                        This project was a way for us students to learn how to design a fairly complex object-oriented program with a clean architecture, and to implement this design with a famous framework using C++. It was the final task of the Objet-oriented programming and design class.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -367,14 +359,8 @@
                                     </p>
                                     <div class="screenshots">
                                         <ul class="thumbnails">
-                                            <li class="span3">
+                                            <li class="span8">
                                                 <a href="./static/img/projects/mango/Mango-1.png" class="thumbnail"><img src="./static/img/projects/mango/thumbs/Mango-1.png" alt="Mango screenshot"/></a>
-                                            </li>
-                                            <li class="span3">
-                                                <a href="./static/img/projects/mango/Mango-2.png" class="thumbnail"><img src="./static/img/projects/mango/thumbs/Mango-2.png" alt="Mango screenshot"/></a>
-                                            </li>
-                                            <li class="span3">
-                                                <a href="./static/img/projects/mango/Mango-3.png" class="thumbnail"><img src="./static/img/projects/mango/thumbs/Mango-3.png" alt="Mango screenshot"/></a>
                                             </li>
                                         </ul>
                                     </div>

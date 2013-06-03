@@ -52,10 +52,10 @@
                                     </p>
                                     <div class="screenshots">
                                         <ul class="thumbnails">
-                                            <li class="span4">
+                                            <li class="span3">
                                                 <a href="./static/img/projects/moka/Moka-1.png" class="thumbnail"><img src="./static/img/projects/moka/thumbs/Moka-1.png" alt="Moka screenshot"/></a>
                                             </li>
-                                            <li class="span4">
+                                            <li class="span3">
                                                 <a href="./static/img/projects/moka/Moka-2.png" class="thumbnail"><img src="./static/img/projects/moka/thumbs/Moka-2.png" alt="Moka screenshot"/></a>
                                             </li>
                                         </ul>
@@ -251,10 +251,10 @@
                                     </p>
                                     <div class="screenshots">
                                         <ul class="thumbnails">
-                                            <li class="span4">
+                                            <li class="span3">
                                                 <a href="./static/img/projects/calculator/Calculator-1.png" class="thumbnail"><img src="./static/img/projects/calculator/thumbs/Calculator-1.png" alt="Calculator screenshot"/></a>
                                             </li>
-                                            <li class="span4">
+                                            <li class="span3">
                                                 <a href="./static/img/projects/calculator/Calculator-2.png" class="thumbnail"><img src="./static/img/projects/calculator/thumbs/Calculator-2.png" alt="Calculator screenshot"/></a>
                                             </li>
                                         </ul>

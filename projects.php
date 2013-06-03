@@ -48,7 +48,7 @@
                                     <p>
                                         <a href="http://themokaproject.github.io/"><strong>Moka</strong></a>...
                                     <p>
-                                        You can follow the Moka's development on Github: <a href="https://github.com/themokaproject">https://github.com/themokaproject</a>
+                                        You can follow the Moka's development on Github: <a href="https://github.com/themokaproject">https://github.com/themokaproject</a>.
                                     </p>
                                     <div class="screenshots">
                                         <ul class="thumbnails">
@@ -67,25 +67,25 @@
                     <div class="span3">
                         <div class="padded">
                             <aside>
-                                <h3>About UVweb</h3>
+                                <h3>About Moka</h3>
                                 <img src="./static/img/bulle.png" alt="arrow-aside" class="arrow-aside" />
                                 <p class="icon">
-                                    <img src="./static/img/UVWeb-icon.png" alt="UVWeb" />
+                                    <img src="./static/img/Moka-icon.png" alt="Moka" />
                                 </p>
                                 <ul>
                                     <li>
                                         <p>
-                                            Avalaible at <a href="http://assos.utc.fr/uvweb/">assos.utc.fr/uvweb</a>
+                                            Dedicated website avalaible at <a href="https://github.com/themokaproject">https://github.com/themokaproject</a>
                                         </p>
                                     </li>
                                     <li>
                                         <p>
-                                            Community involvement
+                                            School project
                                         </p>
                                     </li>
                                     <li>
                                         <p>
-                                            September 2010 - Today
+                                            April 2013 - June 2013
                                         </p>
                                     </li>
                                 </ul>
@@ -102,8 +102,8 @@
                             <h1>UVweb</h1>
                         </div>
                         <div class="row">
-                            <div class="span9">
-                                <div class="padded">
+                            <div class="padded">
+                                <div class="span9">
                                     <p>
                                         <a href="http://assos.utc.fr/uvweb/"><strong>UVweb</strong></a> is a website that helps UTC's students choose their classes each semester. It allows every student to grade and give comments about classes, teachers and talk about their own curriculum.
                                     </p>
@@ -120,16 +120,23 @@
                                                 <li><a href="https://github.com/uvweb/UVweb">Web app</a></li>
                                             </ul>
                                     </p>
-                                    <div class="screenshots">
-                                        <ul class="thumbnails">
-                                            <li class="span4">
-                                                <a href="./static/img/projects/uvweb/UVweb-1.png" class="thumbnail"><img src="./static/img/projects/uvweb/thumbs/UVweb-1.png" alt="UVweb screenshot"/></a>
-                                            </li>
-                                            <li class="span4">
-                                                <a href="./static/img/projects/uvweb/UVweb-2.png" class="thumbnail"><img src="./static/img/projects/uvweb/thumbs/UVweb-2.png" alt="UVweb screenshot"/></a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                </div>
+                                <div class="screenshots span10">
+                                    <ul class="thumbnails">
+                                        <li class="span3">
+                                            <a href="./static/img/projects/uvweb/UVweb-1.png" class="thumbnail"><img src="./static/img/projects/uvweb/thumbs/UVweb-1.png" alt="UVweb screenshot"/></a>
+                                        </li>
+                                        <li class="span6">
+                                            <a href="./static/img/projects/uvweb/UVweb-2.png" class="thumbnail"><img src="./static/img/projects/uvweb/thumbs/UVweb-2.png" alt="UVweb screenshot"/></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="screenshots span7 offset1">
+                                    <ul class="thumbnails">
+                                        <li>
+                                            <a href="./static/img/projects/uvweb/UVweb-3.png" class="thumbnail"><img src="./static/img/projects/uvweb/thumbs/UVweb-3.png" alt="UVweb screenshot"/></a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -187,18 +194,18 @@
                                         in order to improve museums attractiveness and modernize access to culture. Discussions are ongoing with
                                         <a href="http://www.louvre.fr/" title="Le Louvre">Le Louvre</a> to implement such a project in the museum.
                                     </p>
-                                    <div class="screenshots">
-                                        <ul class="thumbnails">
-                                            <li class="span4">
-                                                <a href="./static/img/projects/museum/Museum-1.png" class="thumbnail"><img src="./static/img/projects/museum/thumbs/Museum-1.png" alt="Museum screenshot"/></a>
-                                            </li>
-                                            <li class="span4">
-                                                <a href="./static/img/projects/museum/Museum-2.png" class="thumbnail"><img src="./static/img/projects/museum/thumbs/Museum-2.png" alt="Museum screenshot"/></a>
-                                            </li>
-                                        </ul>
-                                    </div>
                                 </div>
-                            </div>
+                                </div>
+                                <div class="screenshots span10" style="margin-left:0;">
+                                    <ul class="thumbnails" style="margin-left:0;">
+                                        <li class="span5" style="margin-left:0;">
+                                            <a href="./static/img/projects/museum/Museum-1.png" class="thumbnail"><img src="./static/img/projects/museum/thumbs/Museum-1.png" alt="Museum screenshot"/></a>
+                                        </li>
+                                        <li class="span5" style="margin-left:0;">
+                                            <a href="./static/img/projects/museum/Museum-2.png" class="thumbnail"><img src="./static/img/projects/museum/thumbs/Museum-2.png" alt="Museum screenshot"/></a>
+                                        </li>
+                                    </ul>
+                                </div>
                         </div>
                     </div>
                     <div class="span3">
@@ -251,14 +258,11 @@
                                     </p>
                                     <div class="screenshots">
                                         <ul class="thumbnails">
-                                            <li class="span3">
+                                            <li class="span4">
                                                 <a href="./static/img/projects/calculator/Calculator-1.png" class="thumbnail"><img src="./static/img/projects/calculator/thumbs/Calculator-1.png" alt="Calculator screenshot"/></a>
                                             </li>
-                                            <li class="span3">
+                                            <li class="span4">
                                                 <a href="./static/img/projects/calculator/Calculator-2.png" class="thumbnail"><img src="./static/img/projects/calculator/thumbs/Calculator-2.png" alt="Calculator screenshot"/></a>
-                                            </li>
-                                            <li class="span3">
-                                                <a href="./static/img/projects/calculator/Calculator-3.png" class="thumbnail"><img src="./static/img/projects/calculator/thumbs/Calculator-3.png" alt="Calculator screenshot"/></a>
                                             </li>
                                         </ul>
                                     </div>

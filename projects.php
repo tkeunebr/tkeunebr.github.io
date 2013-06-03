@@ -49,7 +49,7 @@
                                     <p>
                                         <a href="http://themokaproject.github.io/"><strong>Moka</strong></a>...
                                     <p>
-                                        You can follow the Moka's development on Github: <a href="https://github.com/themokaproject">https://github.com/themokaproject</a>.
+                                        You can follow the Moka's development on Github: <a href="http://themokaproject.github.io/">http://themokaproject.github.io/</a>.
                                     </p>
                                     <div class="screenshots">
                                         <ul class="thumbnails">
@@ -76,7 +76,7 @@
                                 <ul>
                                     <li>
                                         <p>
-                                            Dedicated website avalaible at <a href="https://github.com/themokaproject">https://github.com/themokaproject</a>
+                                            Dedicated website avalaible at <a href="http://themokaproject.github.io/">http://themokaproject.github.io/</a>
                                         </p>
                                     </li>
                                     <li>

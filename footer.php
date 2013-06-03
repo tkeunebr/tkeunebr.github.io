@@ -1,7 +1,7 @@
 		<footer>
 		    <a href="#" class="jump-top"></a>
 		    <p>
-		    	<a href="./?p=home">thomaskeunebroek.fr</a>
+		    	<a href="./">thomaskeunebroek.fr</a>
 		    </p>
 		</footer>
 

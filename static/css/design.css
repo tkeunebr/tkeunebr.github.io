@@ -32,11 +32,6 @@ body {
     font-size: 15px;
 }
 
-section h2 {
-    border-bottom: 1px solid #3CB9C6;
-    padding-left: 20px;
-}
-
 p {
     text-align: justify;
 }
@@ -133,6 +128,10 @@ aside h3, aside h4 {
     border-top: 1px solid #3CB9C6;
     margin-top: 40px;
     height: auto;
+}
+
+.project h1 {
+    margin-bottom: 30px;
 }
 
 .project aside {

@@ -8,6 +8,7 @@
         <link href="./static/css/bootstrap-responsive.min.css" rel="stylesheet">
         <link href="./static/css/design.css" rel="stylesheet">
         <link href="files/1710bf9.css" rel="stylesheet">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,mediumitalic,bold" title="roboto"/>
 
         <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>

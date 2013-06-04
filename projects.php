@@ -103,8 +103,9 @@
                             <h1>UVweb</h1>
                         </div>
                         <div class="row">
-                            <div class="padded">
+
                                 <div class="span9">
+                                    <div class="padded">
                                     <p>
                                         <a href="http://assos.utc.fr/uvweb/"><strong>UVweb</strong></a> is a website that helps UTC's students choose their classes each semester. It allows every student to grade and give comments about classes, teachers and talk about their own curriculum.
                                     </p>
@@ -112,7 +113,7 @@
                                         Each semester, we provide the success rate for each class and that's one of the things that make UVweb so famous at the UTC.
                                     </p>
                                     <p>
-                                        We intend to rebuild UVweb from scratch, making its database more flexible, changing the underlying technology, improving it's UI and UX, providing powerful webservices and an Android application as well. All of this should be coming within a few months. Stay tuned !
+                                        We intend to rebuild UVweb from scratch, making its database more flexible, changing the underlying technology, improving it's UI and UX, providing powerful webservices and an Android application on top of it. All of this should be coming within a few months. Stay tuned !
                                     </p>
                                     <p>
                                         You can follow the UVweb's V2 development on Github:
@@ -189,9 +190,9 @@
                                         <a href="http://www.louvre.fr/" title="Le Louvre">Le Louvre</a> to implement such a project in the museum.
                                     </p>
                                 </div>
-                                </div>
-                                <div class="screenshots span10" style="margin-left:0;">
-                                    <ul class="thumbnails" style="margin-left:0;">
+                            </div>
+                            <div class="screenshots span10" style="margin-left:0;">
+                                <ul class="thumbnails" style="margin-left:0;">
                                         <li class="span5" style="margin-left:0;">
                                             <a href="./static/img/projects/museum/Museum-1.png" class="thumbnail"><img src="./static/img/projects/museum/thumbs/Museum-1.png" alt="Museum screenshot"/></a>
                                         </li>

@@ -363,14 +363,15 @@
                                         Mango has the basic features you would expect from a browser: tab management, find in page, basic download manager
                                         as well as a few other stuff. I also created a <a href="./projects/mango">website</a> that's a bit more comprehensive about Mango.
                                     </p>
-                                    <div class="screenshots">
-                                        <ul class="thumbnails">
-                                            <li class="span8">
-                                                <a href="./static/img/projects/mango/Mango-1.png" class="thumbnail"><img src="./static/img/projects/mango/thumbs/Mango-1.png" alt="Mango screenshot"/></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
+                                 </div>
+                            </div>
+                            <div class="span8 screenshots">
+                                <ul class="thumbnails">
+                                    <li class="span2"></li>
+                                    <li class="span5">
+                                        <a href="./static/img/projects/mango/Mango-1.png" class="thumbnail"><img src="./static/img/projects/mango/thumbs/Mango-1.png" alt="Mango screenshot"/></a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>

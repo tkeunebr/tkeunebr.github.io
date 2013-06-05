@@ -56,17 +56,18 @@
                                     <p>
                                         You can follow the Moka's development on Github: <a href="http://themokaproject.github.io/">http://themokaproject.github.io/</a>.
                                     </p>
-                                    <div class="screenshots">
-                                        <ul class="thumbnails">
-                                            <li class="span3">
-                                                <a href="./static/img/projects/moka/Moka-1.png" class="thumbnail"><img src="./static/img/projects/moka/thumbs/Moka-1.png" alt="Moka screenshot"/></a>
-                                            </li>
-                                            <li class="span3">
-                                                <a href="./static/img/projects/moka/Moka-2.png" class="thumbnail"><img src="./static/img/projects/moka/thumbs/Moka-2.png" alt="Moka screenshot"/></a>
-                                            </li>
-                                        </ul>
-                                    </div>
                                 </div>
+                            </div>
+                            <div class="span8 screenshots">
+                                <ul class="thumbnails">
+                                    <li class="span2"></li>
+                                    <li class="span3">
+                                        <a href="./static/img/projects/moka/Moka-1.png" class="thumbnail"><img src="./static/img/projects/moka/thumbs/Moka-1.png" alt="Moka screenshot"/></a>
+                                    </li>
+                                    <li class="span3">
+                                        <a href="./static/img/projects/moka/Moka-2.png" class="thumbnail"><img src="./static/img/projects/moka/thumbs/Moka-2.png" alt="Moka screenshot"/></a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -365,7 +366,7 @@
                                     </p>
                                  </div>
                             </div>
-                            <div class="span8 screenshots">
+                            <div class="span7 screenshots">
                                 <ul class="thumbnails">
                                     <li class="span2"></li>
                                     <li class="span5">

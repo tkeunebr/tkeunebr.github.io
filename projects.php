@@ -47,7 +47,12 @@
                             <div class="span9">
                                 <div class="padded">
                                     <p>
-                                        <a href="http://themokaproject.github.io/"><strong>Moka</strong></a>...
+                                        <a href="http://themokaproject.github.io/"><strong>Moka</strong></a> features several components:
+                                        <ul>
+                                            <li>An Android application to revolutionize in-room collaboration.</li>
+                                            <li>A JavaScript-based output platform for beautiful realtime rendering.</li>
+                                            <li>A powerful Java/Jade-based backend server for the heavy computation and across devices synchronization.</li>
+                                        </ul>
                                     <p>
                                         You can follow the Moka's development on Github: <a href="http://themokaproject.github.io/">http://themokaproject.github.io/</a>.
                                     </p>
@@ -107,10 +112,10 @@
                                 <div class="span9">
                                     <div class="padded">
                                     <p>
-                                        <a href="http://assos.utc.fr/uvweb/"><strong>UVweb</strong></a> is a website that helps UTC's students choose their classes each semester. It allows every student to grade and give comments about classes, teachers and talk about their own curriculum.
+                                        <a href="http://assos.utc.fr/uvweb/"><strong>UVweb</strong></a> is a website that helps UTC's students choose their classes each semester. It allows every student to grade and give comments about classes, teachers and to talk about their own curriculum.
                                     </p>
                                     <p>
-                                        Each semester, we provide the success rate for each class and that's one of the things that make UVweb so famous at the UTC.
+                                        Each semester, we provide the success rate for each class and that's one of the things that make UVweb so famous here at the UTC.
                                     </p>
                                     <p>
                                         We intend to rebuild UVweb from scratch, making its database more flexible, changing the underlying technology, improving it's UI and UX, providing powerful webservices and an Android application on top of it. All of this should be coming within a few months. Stay tuned !
@@ -186,7 +191,7 @@
                                     <p>
                                         It was developed within the <a href="https://sites.google.com/site/calmprojectutc/" title="CALM Project">
                                         CALM Project</a> (ContextuAlized Learning through Mobility), which is aimed at using innovative technologies
-                                        in order to improve museums attractiveness and modernize access to culture. Discussions are ongoing with
+                                        in order to improve museums attractiveness and modernize access to culture. By the end of the project, discussions were ongoing with
                                         <a href="http://www.louvre.fr/" title="Le Louvre">Le Louvre</a> to implement such a project in the museum.
                                     </p>
                                 </div>
@@ -247,11 +252,11 @@
                                         types of numbers: integer, real, rational, complex and even literal expressions.
                                     </p>
                                     <p>
-                                        It is fully based on the <a href="http://en.wikipedia.org/wiki/Reverse_Polish_notation">Reverse Polnish Notation</a> and has some nice features
+                                        It is based on the <a href="http://en.wikipedia.org/wiki/Reverse_Polish_notation">Reverse Polnish Notation</a> and has some nice features
                                         such as a whole Undo/Redo system. It is also a cross-platform app thanks to the Qt framework.
                                     </p>
                                     <p>
-                                        This project was a way for us students to learn how to design a fairly complex object-oriented program with a clean architecture, and to implement this design with a famous framework using C++. It was the final task of the Objet-oriented programming and design class.
+                                        This project was a way for us students to learn how to design a fairly complex object-oriented program with a clean architecture, and to implement this design using a famous framework based on C++. It was the final task of the Introduction to objet-oriented programming and design class.
                                     </p>
                                 </div>
                             </div>
@@ -347,12 +352,12 @@
                             <div class="span9">
                                 <div class="padded">
                                     <p>
-                                        <strong>Mango</strong> is a web-browser based on the famous web engine <a href="http://www.webkit.org/">WebKit</a>,
+                                        <strong>Mango</strong> is a web-browser built on top of the famous web engine <a href="http://www.webkit.org/">WebKit</a>,
                                         which is used in world-class browsers such as Google Chrome (well, <a href="http://www.theverge.com/2013/4/5/4186302/google-chrome-blink-coming-to-chrome-28-in-10-weeks">not anymore</a>) and Safari.
                                     </p>
                                     <p>
                                         I built it as I was studying in Germany, and it was my first
-                                        <em>big</em> project to achieve. The UI was designed with Qt, which means it can run on several platforms.
+                                        <em>big</em> project to achieve. The UI was designed with Qt (and thus uses C++), which allowed me to make it run on several platforms very easily.
                                     </p>
                                     <p>
                                         Mango has the basic features you would expect from a browser: tab management, find in page, basic download manager

@@ -927,7 +927,7 @@ input,textarea,.search-query,.uneditable-input,.input-append input,.input-append
 .label-important,.label-important:hover,.alert-error{background-color:#d5b321;color:rgba(255, 255, 255, 0.9);}
 .label-success,.label-success:hover,.alert-success{background-color:#48ca3b;color:rgba(255, 255, 255, 0.9);}
 .label-info,.label-info:hover,.alert-info{background-color:#4d3a7d;color:rgba(255, 255, 255, 0.9);}
-.progress,.well,pre,code{-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;}
+.progress,.well,pre,code{border-color:transparent;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;text-shadow:none;}
 .well{background-image:none;}
 .hero-unit{-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;}
 .progress{background-image:none;background-color:#27666D;}.progress .bar{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;background-image:none;background-color:#debb27;}.progress .bar-success{background-color:#48ca3b;}

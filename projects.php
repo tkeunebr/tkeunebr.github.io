@@ -113,20 +113,20 @@
                                 <div class="span9">
                                     <div class="padded">
                                     <p>
-                                        <a href="http://assos.utc.fr/uvweb/"><strong>UVweb</strong></a> is a website that helps UTC's students choose their classes each semester. It allows every student to grade and give comments about classes, teachers and to talk about their own curriculum.
+                                        <a href="http://assos.utc.fr/uvweb/"><strong>UVweb</strong></a> is a website that helps UTC's students choose their classes each semester. It allows them to grade and give comments about classes, teachers and to describe their own curriculum.<br>
+                                        On top of that, we provide each semester the success rate for each class. This is one of the core features that make UVweb this tiny but famous social network here at the UTC.
                                     </p>
                                     <p>
-                                        Each semester, we provide the success rate for each class and that's one of the things that make UVweb so famous here at the UTC.
+                                        As we were just admins of the UVweb (meaning basically maintenance, stats update, comments moderation and some small design enhancements), <a href="http://masciulli.fr/">Alexandre Masciulli</a> and I were already thinking about doing something bigger with the platform.
                                     </p>
                                     <p>
-                                        We intend to rebuild UVweb from scratch, making its database more flexible, changing the underlying technology, improving it's UI and UX, providing powerful webservices and an Android application on top of it. All of this should be coming within a few months. Stay tuned !
-                                    </p>
-                                    <p>
-                                        You can follow the UVweb's V2 development on Github:
+                                        We finally found the time to rebuild UVweb from scratch, making its database more flexible, changing the underlying core framework, improving it's UI and UX, providing powerful webservices and an Android application on top of it. All of this should be coming within a few months.<br>
+                                        You can follow UVweb 2.0 development on Github:
                                             <ul>
-                                                <li><a href="https://github.com/uvweb/UVwebForAndroid">Android app</a></li>
                                                 <li><a href="https://github.com/uvweb/UVweb">Web app</a></li>
+                                                <li><a href="https://github.com/uvweb/UVwebForAndroid">Android app</a></li>
                                             </ul>
+                                        Stay tuned!
                                     </p>
                                 </div>
                                 <div class="screenshots span10">

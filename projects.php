@@ -120,7 +120,7 @@
                                         As we were just admins of the UVweb (meaning basically maintenance, stats update, comments moderation and some small design enhancements), <a href="http://masciulli.fr/">Alexandre Masciulli</a> and I were already thinking about doing something bigger with the platform.
                                     </p>
                                     <p>
-                                        We finally found the time to rebuild UVweb from scratch, making its database more flexible, changing the underlying core framework, improving it's UI and UX, providing powerful webservices and an Android application on top of it. All of this should be coming within a few months.<br>
+                                        We finally found the time to rebuild UVweb from scratch, making its database more flexible, changing the underlying core framework, improving it's UI and UX, providing powerful webservices and an Android application running on top. All of this should be coming within a few months.<br>
                                         You can follow UVweb 2.0 development on Github:
                                             <ul>
                                                 <li><a href="https://github.com/uvweb/UVweb">Web app</a></li>

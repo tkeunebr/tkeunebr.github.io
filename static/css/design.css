@@ -239,9 +239,6 @@ footer a.jump-top {
 /* TODO: Refactor in Bootstrap */
 
 @media (min-width: 1200px) {
-    .thumbnails .span3 {
-        width: 245px;
-    }
     .right {
         float: right;
     }
@@ -252,9 +249,6 @@ footer a.jump-top {
         padding-left: 10px;
         padding-right: 10px;
     }
-    .thumbnails .span3 {
-        width: 200px;
-    }
     .right {
         float: right;
     }
@@ -262,12 +256,9 @@ footer a.jump-top {
 }
 
 @media (min-width: 850px) and (max-width: 979px) {
-    .container{width:800px;}
-    .span9 {
-        width: 600px;
-    }
-    .span3 {
-        width: 180px;
+    #more .well {
+        min-width: 271px;
+        min-height: 281px;
     }
     .padded {
         padding-left: 5px;
@@ -296,14 +287,12 @@ footer a.jump-top {
         padding-left: 5px;
         padding-right: 5px;
     }
-    .thumbnails .span3 {
-        width: 150px;
-    }
     .right {
         text-align: center;
     }
     #more .well {
-        min-height: 261px;
+        min-width: 261px;
+        min-height: 281px;
     }
     .top-spaced {
         margin-top: 50px;
@@ -413,34 +402,5 @@ footer a.jump-top {
 }
 
 .hero-unit {
-       word-wrap: break-word;
-}
-
-/** Resume **/
-
-#resume #header {
-    background-color: #3CB9C6;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-#resume #main {
-  background-color: rgba(255, 255, 255, 0.9);
-  color: #343333;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
-#resume .me {
-    width: 190px;
-    height: 190px;
-    margin: auto;
-    border-radius: 150px;
-    -webkit-border-radius: 150px;
-    -moz-border-radius: 150px;
-    background: url(../img/me.png) no-repeat;
-    background-position: -35px 0px;
-    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    word-wrap: break-word;
 }

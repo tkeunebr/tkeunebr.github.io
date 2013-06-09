@@ -47,14 +47,21 @@
                             <div class="span9">
                                 <div class="padded">
                                     <p>
-                                        <a href="http://themokaproject.github.io/"><strong>Moka</strong></a> features several components:
+                                        <a href="http://themokaproject.github.io/"><strong>Moka</strong></a> is based on the idea that we can make brainstorming meetings more reliable and efficient, with no additional hardware required.
+                                    </p>
+                                    <p>
+                                        Basically, a smartphone application acts like a remote control for the main screen that's usually connected to a projector. Using the remote, the attendants of the meeting that are connected to the main server (through NFC or manually) are able to add, edit and remove several types of objects like images, videos, web pages, UML diagrams, post-its, etc. The objets that are added to the platform can be moved, resized and their content can be edited, all of these operations happening in real-time on the main screen.
+                                    </p>
+                                    <p>
+                                        Moka features several components:
                                         <ul>
                                             <li>An Android application to revolutionize in-room collaboration.</li>
                                             <li>A JavaScript-based output platform for beautiful realtime rendering.</li>
-                                            <li>A powerful Java/Jade-based backend server for the heavy computation and across devices synchronization.</li>
+                                            <li>A powerful Java/Jade-based back-end server for the heavy computation and across devices synchronization.</li>
+                                            <li>A public REST-based API for third-party developers to be able to interact and make requests with the back-end server.</li>
                                         </ul>
                                     <p>
-                                        You can follow the Moka's development on Github: <a href="http://themokaproject.github.io/">http://themokaproject.github.io/</a>.
+                                        You can grab further information (including a demo) on the website <a href="http://themokaproject.github.io/">http://themokaproject.github.io/</a>.
                                     </p>
                                 </div>
                             </div>
